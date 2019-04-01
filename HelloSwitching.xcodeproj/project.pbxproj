@@ -12,6 +12,8 @@
 		55FC53A3224FE97A00BD07B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FC53A1224FE97A00BD07B2 /* Main.storyboard */; };
 		55FC53A5224FE97C00BD07B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FC53A4224FE97C00BD07B2 /* Assets.xcassets */; };
 		55FC53A8224FE97C00BD07B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FC53A6224FE97C00BD07B2 /* LaunchScreen.storyboard */; };
+		55FC53B0224FEC5500BD07B2 /* RoleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC53AF224FEC5500BD07B2 /* RoleTableViewController.swift */; };
+		55FC53B42251F3B800BD07B2 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC53B32251F3B800BD07B2 /* Role.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		55FC53A4224FE97C00BD07B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FC53A7224FE97C00BD07B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FC53A9224FE97C00BD07B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FC53AF224FEC5500BD07B2 /* RoleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleTableViewController.swift; sourceTree = "<group>"; };
+		55FC53B32251F3B800BD07B2 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				55FC539D224FE97A00BD07B2 /* AppDelegate.swift */,
 				55FC539F224FE97A00BD07B2 /* ViewController.swift */,
+				55FC53B32251F3B800BD07B2 /* Role.swift */,
 				55FC53A1224FE97A00BD07B2 /* Main.storyboard */,
+				55FC53AF224FEC5500BD07B2 /* RoleTableViewController.swift */,
 				55FC53A4224FE97C00BD07B2 /* Assets.xcassets */,
 				55FC53A6224FE97C00BD07B2 /* LaunchScreen.storyboard */,
 				55FC53A9224FE97C00BD07B2 /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				55FC53A0224FE97A00BD07B2 /* ViewController.swift in Sources */,
 				55FC539E224FE97A00BD07B2 /* AppDelegate.swift in Sources */,
+				55FC53B0224FEC5500BD07B2 /* RoleTableViewController.swift in Sources */,
+				55FC53B42251F3B800BD07B2 /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
